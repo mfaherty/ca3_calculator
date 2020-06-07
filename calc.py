@@ -6,7 +6,7 @@ Created on Sat May 30 18:47:33 2020
 """
 #
 # A strange calculator.. only does strange functions. 
-#
+# Git hub repo - https://github.com/mfaherty/ca3_calculator
 
 from functools import reduce
 import random
@@ -76,7 +76,7 @@ class Calculator():
         print(power)
         return power
     
-    
+    # 11. Menu function to display options and take user input
     def menu(self, li, n):
         
         print("Please select operation -\n"  
